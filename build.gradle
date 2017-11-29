@@ -5,3 +5,8 @@ jar {
         attributes 'Main-Class': 'example.HelloWorld'
     }
 }
+
+repositories {
+        mavenLocal()
+        maven { url "http://172.18.0.1:8081/artifactory/gradle-dev" }
+}
