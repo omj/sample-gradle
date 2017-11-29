@@ -9,4 +9,10 @@ jar {
 repositories {
         mavenLocal()
         maven { url "http://172.18.0.1:8081/artifactory/gradle-dev" }
+    }
+
+dependencies {
+    
+    compile group: 'joda-time', name: 'joda-time', version: '2.9.9'
+
 }
